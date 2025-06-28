@@ -51,26 +51,6 @@ export const projectsByLanguage: ProjectsByLanguage = {
       topics: ["Dart", "flutter", "WebRTC", "android", "iOS", "mobile"],
     },
   ],
-  Java: [
-    {
-      name: "Android App",
-      description: "Mobile application built with Java and Android SDK",
-      url: "https://github.com/yourusername/android-app",
-      stars: 7,
-      language: "Java",
-      topics: ["android", "java", "mobile"],
-    },
-  ],
-  "C++": [
-    {
-      name: "Game Engine",
-      description: "Simple 2D game engine implementation",
-      url: "https://github.com/yourusername/game-engine",
-      stars: 19,
-      language: "C++",
-      topics: ["cpp", "game-engine", "opengl"],
-    },
-  ],
 };
 
 export const languageColors: { [key: string]: string } = {
